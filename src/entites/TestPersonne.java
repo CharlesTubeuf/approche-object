@@ -14,6 +14,17 @@ public class TestPersonne {
 	
 		Personne perso2 = new Personne("toto","trocosto",a2);
 		
+		perso1.afficher();
+		perso1.modifierNom("Jean-Paul");
+		perso1.afficher();
+		perso1.modifierPrenom("nouveauprenom");
+		perso1.afficher();
+		
+		
+		Personne perso3 = new Personne( "Jean-paul", "rouve");
+		perso3.modifierAddresse(a2);
+	
+		
 	}
 
 }
