@@ -36,6 +36,7 @@ public class Maison {
 		}
 		return superficie;
 	}
+	
 	public double nombreDePieceDuType(String type) {
 		double count = 0;
 		for (int i = 0; i < maison.length; i++) {
