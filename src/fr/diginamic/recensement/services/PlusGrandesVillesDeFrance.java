@@ -18,10 +18,9 @@ public class PlusGrandesVillesDeFrance extends MenuService {
         			if(listeVille.get(a).getPopulationTotal()>max) {
         				laPlusPeuple = listeVille.get(a); 
         				max = listeVille.get(a).getPopulationTotal();
-        				System.out.println("BUUUUGGGGG");
         			}       		        		
         	}
-        	System.out.println(i+"- Ville de France :-"+listeVille+" : "+ laPlusPeuple.getNomCommune() + " avec : "+max+" habitants.");
+        	System.out.println(i+"- Ville de France : "+ laPlusPeuple.getNomCommune() + " avec : "+max+" habitants.");
         	listeVille.remove(laPlusPeuple);
         }
         System.out.println();
